@@ -63,6 +63,12 @@ cached weak-rate data. Details depend on the MESA version.
 
 MESA only uses a pair when both nuclides are in the network of the run.
 
+**We propose 3 MESA runs with these rates:**
+
+1. **A run with original rates and coverage (no DLR), a reference simulation.**
+2. **A run with original rates where available, supplemented by DLR (weakreactions_MESA_DLR.tables).**
+3. **A run with all of our rates (weakreactions_DLR.tables).**
+
 ## Known limitations
 
 - **Low temperature and density.** Below T₉ = 1 and log₁₀(ρYₑ) = 5, the DLR
